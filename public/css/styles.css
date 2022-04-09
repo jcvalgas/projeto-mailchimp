@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url(https://www.spescoladeteatro.org.br/wp-content/uploads/2020/05/books.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+div.container-form {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px outset rgba(0, 0, 0, 0.1);;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 5%;
+  align-items: center;
+}
+
+div.container-form img {
+  width: 75px;
+  margin-bottom: 35px;
+}
+
+form.signin {
+  display: flex;
+  flex-direction: column;
+}
+
+form.signin label, p, h5 {
+  font-family: cursive;
+  margin: 10px 0;
+  text-align: center;
+}
+
+h5 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+form.signin input[type="text"] {
+  margin: 3px 0;
+  background-color: #ffffff85;
+  border: 1px outset rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 2% 5%;
+}
+
+form.signin button[type="submit"] {
+  margin-top: 50px;
+  box-shadow: 0px 1px 0px 0px #000;
+  background: linear-gradient(to bottom, #565353 5%, #1e1d1d 100%);
+  border-radius: 6px;
+  border: 1px solid #302c2c;
+  display: inline-block;
+  cursor: pointer;
+  color: #e1dbdb;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none
+}
+form.signin button[type="submit"]:hover {
+  background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+  color: #000;
+}
+form.signin button[type="submit"]:active {
+  position:relative;
+	top:1px;
+}
