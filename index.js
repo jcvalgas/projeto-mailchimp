@@ -58,8 +58,3 @@ app.listen(port, () => {
     console.log(`Estou rodando na porta ${port}`)
 })
 
-// API KEY
-// 1a7bcae7724d04d37811e279b0c257cf-us14
-
-// ID KEY
-// 2b3e4b3d15
